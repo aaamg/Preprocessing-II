@@ -3,15 +3,30 @@
     display: flex;
     flex-direction: row;
     height: 100px;
-    border-bottom: 4px dotted grey;
+    //width: 800px;
+    border-bottom: 2px dashed silver;
+
+    //mobile
+	@media @mobile{
+        height: 200px;
+        flex-direction: column;
+        //.border1()
+	}
+
 
     .funBus{
         display: flex;
         width: 20%;
         //.border3();
 
+        //mobile
+        @media @mobile{
+            width: 100%;
+            justify-content: center;
+        }//media
+
         h1{
-            padding: 40px 0%;
+            padding: 40px 0%;  
         }
     }
     .navBar{
@@ -22,6 +37,13 @@
         //margin padding
         margin-left: 35%;
         //.border4();
+
+         //mobile
+         @media @mobile{
+            width: 100%;
+            justify-content: space-around;
+            margin: 0% 0%;
+        }//media
 
         a{
             text-decoration: none;
