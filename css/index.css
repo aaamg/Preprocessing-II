@@ -182,7 +182,7 @@ img {
 }
 @media (max-width: 500px) {
   .topBar {
-    height: 200px;
+    height: 150px;
     flex-direction: column;
   }
 }
@@ -193,6 +193,7 @@ img {
 @media (max-width: 500px) {
   .topBar .funBus {
     width: 100%;
+    height: 80px;
     justify-content: center;
   }
 }
@@ -211,6 +212,7 @@ img {
     width: 100%;
     justify-content: space-around;
     margin: 0% 0%;
+    height: 30px;
   }
 }
 .topBar .navBar a {
