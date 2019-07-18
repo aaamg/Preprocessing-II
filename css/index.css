@@ -177,7 +177,6 @@ img {
 .topBar .funBus {
   display: flex;
   width: 20%;
-  border: 2px solid green;
 }
 .topBar .funBus h1 {
   padding: 40px 0%;
@@ -188,14 +187,12 @@ img {
   justify-content: space-between;
   align-content: center;
   margin-left: 35%;
-  border: 2px solid yellow;
 }
 .topBar .navBar a {
   text-decoration: none;
   color: black;
   padding: 40px 0%;
   font-size: 2rem;
-  border: 2px solid blue;
 }
 .footer {
   width: 100%;
@@ -207,6 +204,23 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .mainHead {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  border-bottom: 4px dotted grey;
+}
+.home .mainHead .imgDiv {
+  display: flex;
+  width: 100%;
+  height: 0 auto;
+}
+.home .mainHead .mainContent {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  padding-top: 10px;
 }
 .home .content-section {
   margin: 30px 0;
